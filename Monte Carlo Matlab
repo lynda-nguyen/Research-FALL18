@@ -1,0 +1,13 @@
+#Creates a graph of data points based around 55 degrees and 7.55 m/s
+
+thetas = normrnd(55, 1, [100,1])
+velocities = normrnd(7.55, 0.25, [100,1])
+
+data = [thetas, velocities]
+
+#This is more complicated because I attempted to graph the reference point,
+#but I was unable to figure out how to add it to the graph in a separate color.
+scatter(thetas, velocities)
+hold on 
+plot(x(55),y(7.55),'r*')
+hold off
