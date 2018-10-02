@@ -1,0 +1,13 @@
+#Creates data points based around a 55 degree angle shot with velocity 7.55 m/s
+
+thetas <- rnorm(100, mean = 55, sd = 1)
+velocities <- rnorm(100, mean = 7.55, sd = 0.25)
+
+thetas
+velocities
+
+simdata <- data.frame(thetas, velocities)
+simdata
+
+plot(simdata)
+points(55, 7.55, pch = 19, col = "red")
