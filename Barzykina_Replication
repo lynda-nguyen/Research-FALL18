@@ -1,5 +1,3 @@
-$ cat .gitattributes
-*.rb linguist-language=R
 # R 
 # 09/18/2018
 # data source: https://arxiv.org/pdf/1702.07234.pdf
